@@ -1,0 +1,14 @@
+1. Navigate to your project directory:
+	cd path/to/your/project-folder
+2. Create the virtual environment:
+	python -m venv venv
+3. Activate the virtual environment:
+	venv\Scripts\activate
+4. Install your project dependencies (for setup only)
+	pip install opencv-python numpy pygame geocoder
+   For run this in new system
+	pip install -r requirements.txt
+5. Run your script
+	python your_script.py
+6. Deactivate when done
+	deactivate
